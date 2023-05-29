@@ -21,11 +21,11 @@ export default function App() {
             <main className='container mx-auto px-3 pb-12'>
                 <Alert/>
                 <Routes>
-                    <Route path='/github-find/' element={<Home/>}/>
-                    <Route path='/github-find/about' element={<About/>}/>
-                    <Route path='/github-find/user/:login' element={<User/>}/>
-                    <Route path='/github-find/notfound' element={<NotFound/>}/>
-                    <Route path='/github-find/*' element={<NotFound/>}/>
+                    <Route path='/github-finder/' element={<Home/>}/>
+                    <Route path='/github-finder/about' element={<About/>}/>
+                    <Route path='/github-finder/user/:login' element={<User/>}/>
+                    <Route path='/github-finder/notfound' element={<NotFound/>}/>
+                    <Route path='/github-finder/*' element={<NotFound/>}/>
                 </Routes>
             </main>
 
